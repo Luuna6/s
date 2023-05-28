@@ -8,8 +8,8 @@ cd my_folder
 git clone https://github.com/Luuna6/besh.git
 
 # Install Docker Compose
-sudo apt install docker-compose -y
+ apt install docker-compose -y
 
 # Build and run the Docker containers
 cd besh
-sudo docker-compose up --build
+ docker-compose up --build
